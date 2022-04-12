@@ -9,9 +9,10 @@ let package = Package(
     products: [
         .library(
             name: "BanubaSDK",
-            targets: ["BNBBackground", "BNBEffectPlayer", "BNBFaceTracker", "BNBSdkCore"]),
+            targets: [/*"BNBBackground", "BNBEffectPlayer", "BNBFaceTracker",*/ "BNBSdkCore"]),
     ],
     targets: [
+/*
         .binaryTarget(
             name: "BNBBackground",
             url: "https://d2cm7wtcqqw29.cloudfront.net/1.3.1-181-g12a9bb8a29/BNBBackground.zip",
@@ -24,6 +25,7 @@ let package = Package(
             name: "BNBFaceTracker",
             url: "https://d2cm7wtcqqw29.cloudfront.net/1.3.1-181-g12a9bb8a29/BNBFaceTracker.zip",
             checksum: "8d827db8c6a6bd682338a03bca27e4c6d16a44cdbbb7d6638faca2c4ebdc4e1b"),
+*/
         .binaryTarget(
             name: "BNBSdkCore",
             url: "https://d2cm7wtcqqw29.cloudfront.net/1.3.1-181-g12a9bb8a29/BNBSdkCore.zip",
